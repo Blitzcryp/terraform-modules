@@ -1,6 +1,5 @@
 # PCI DSS v4.0 — Master Control Matrix
 
-> Internal / confidential — eMAG Group (RO, BG, HU, PL).
 > Companion to [`CONVENTIONS.md`](../CONVENTIONS.md) and each module's
 > **PCI DSS Controls** README section.
 
