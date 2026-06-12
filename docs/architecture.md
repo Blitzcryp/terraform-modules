@@ -1,6 +1,5 @@
 # Architecture — Design Reference
 
-> Internal / confidential — eMAG Group (RO, BG, HU, PL).
 > Companion to [`CONVENTIONS.md`](../CONVENTIONS.md) (the contract) and
 > [`pci-dss-mapping.md`](./pci-dss-mapping.md) (the control matrix).
 
