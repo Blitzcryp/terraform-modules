@@ -1,6 +1,5 @@
 # PCI DSS v4.0 — Practical Guide for the PAWS Terraform Library
 
-> Internal / confidential — eMAG Group (RO, BG, HU, PL).
 > Subject to PCI DSS v4.0, NIS2, DORA, GDPR.
 > Security exceptions & questions: **security@emag.ro**.
 
