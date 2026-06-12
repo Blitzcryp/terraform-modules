@@ -13,6 +13,7 @@ locals {
 }
 
 resource "aws_launch_template" "this" {
+  # checkov:skip=CKV_AWS_79:IMDSv2 is enforced by default via local.http_tokens="required"; weakening requires config.allow_imdsv1 (auditable escape hatch). Checkov cannot resolve the variable-driven value statically.
   # checkov:skip=CKV_AWS_341:http_put_response_hop_limit defaults to 1; a higher value is not configured here.
   name                   = var.config.name
   image_id               = var.config.image_id

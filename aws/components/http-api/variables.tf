@@ -15,7 +15,7 @@ variable "config" {
     component does NOT create the aws_lambda_permission (it would couple the
     component to a Lambda it does not own). The caller must add a permission
     granting principal apigateway.amazonaws.com invoke on the function, scoped to
-    `${manifest.execution_arn}/*/*` as source_arn. The lambda-permission atom
+    "<manifest.execution_arn>/*/*" as source_arn. The lambda-permission atom
     exists for this.
   EOT
 

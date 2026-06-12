@@ -7,10 +7,10 @@ variable "config" {
   EOT
 
   type = object({
-    file_system_id  = string                       # required
-    subnet_id       = string                       # required
-    security_groups = optional(list(string), [])   # NFS-only sources (Req 1)
-    ip_address      = optional(string)             # null = AWS assigns one
+    file_system_id  = string                     # required
+    subnet_id       = string                     # required
+    security_groups = optional(list(string), []) # NFS-only sources (Req 1)
+    ip_address      = optional(string)           # null = AWS assigns one
   })
   # no `default` — file_system_id and subnet_id are required
 

@@ -20,7 +20,7 @@ variable "config" {
 
     # --- OAuth / hosted-UI ---
     callback_urls        = optional(list(string), [])
-    allowed_oauth_flows  = optional(list(string), ["code"])           # never "implicit" (PCI: no token in URL fragment)
+    allowed_oauth_flows  = optional(list(string), ["code"]) # never "implicit" (PCI: no token in URL fragment)
     allowed_oauth_scopes = optional(list(string), ["openid", "email"])
 
     # --- Auth flows (no USER_PASSWORD_AUTH by default; SRP only) ---
